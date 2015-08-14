@@ -130,7 +130,45 @@ var step8 = prompt("Type the number.");
 
 alert(" That number is what we call a day code.  " + "  The codes for each day are: sun = 1, mon = 2, , tues = 4, wed = 5, thur = 7, fri = 8, and sat = 0.");
 
-
+switch ( step8 ) {
+	case "1":
+		alert(" You were born on a Sunday.");
+		document.write("<h1>You were born on a Sunday.</h1>");
+		print(" You were born on a Sunday.");
+		break;
+	case "2":
+		alert(" You were born on a Monday.");
+		document.write("<h1>You were born on a Monday.</h1>");
+		print(" You were born on a Monday.");
+		break;
+	case "4":
+		alert(" You were born on a Tuesday.");
+		document.write("<h1>You were born on a Tuesday.</h1>");
+		print(" You were born on a Tuesday.");
+		break;
+	case "5":
+		alert(" You were born on a Wednesday.");
+		document.write("<h1>You were born on a Wednesday.</h1>");
+		print(" You were born on a Wednesday.");
+		break;
+	case "7":
+		alert(" You were born on a Thursday.");
+		document.write("<h1>You were born on a Thursday.</h1>");
+		print(" You were born on a Thursday.");
+		break;
+	case "8":
+		alert(" You were born on a Friday.");
+		document.write("<h1>You were born on a Friday.</h1>");
+		print(" You were born on a Friday.");
+		break;
+	case "0":
+		alert(" You were born on a Saturday.");
+		document.write("<h1>You were born on a Saturday.</h1>");
+		print(" You were born on a Saturday.");
+		break;
+	default:
+		alert(" A mistake was made by you when typed in the day code.");
+}
 
 
 
