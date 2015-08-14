@@ -2,34 +2,42 @@
 
 //Part One of The Program Number of Seconds Alive
 
-
+//First Request String Variable
 var name = prompt("What is your name?");
 alert("Hello, " + name);
-
+//I wanted to display a description of what my calculator did on the page.
 document.write("<h2>Find your age in seconds & the day of the week you were born (if you were born before year 2000).</h2>");
 
-
+//The program will print the information at the end so I also decided to display the name on the page first.
 document.write(name);
 
 var yearsAlive = prompt("What is your age in years?");
 
+//This is the first time i am recording and also displaying on page.
 document.write("You are " + yearsAlive + " years old!");
 console.log("You are " + yearsAlive+ " years old!");
 
-
+//This are the only constant variables in the program. I did it to avoid confusion if I multiplied all those values 
 var secondsPerMin = 60;
 var minsPerHour = 60;
 var hoursPerDay = 24;
 var daysPerWeek = 7;
 var weeksPerYear = 52;
-
+//Year age in seconds equation
 var secondsAlive = yearsAlive * secondsPerMin * minsPerHour * hoursPerDay * daysPerWeek * weeksPerYear;
+
 
 alert("You've been alive for more than " + secondsAlive + " seconds!");
 
+//Second data that I wanted to both display and record in case of future debugging
 
 console.log(yearsAlive * secondsPerMin * minsPerHour * hoursPerDay * daysPerWeek * weeksPerYear);
 document.write("You've been alive for more than " + secondsAlive + " seconds!");
+
+
+//Part Two of The Program Calculating the Day the user was Born
+//This algorithim is known as the Zeller's congruence.
+//I learned it in one of my math engineering classes and thought it would be a good idea to make it a program
 
 var last2Year = prompt("What are the last 2 digits of the year were you born?");
 document.write("You were born in the year 19" + last2Year + "!");
