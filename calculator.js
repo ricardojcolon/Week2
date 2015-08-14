@@ -112,6 +112,27 @@ switch ( first3month ) {
 
 
 
+var step4 = prompt("Type your month code");
+var step5 = (step3 + step4 *1);
+alert(" The sum equals " + step5);
+
+var step6 = (step5 + dateOFmonth *1);
+alert(" Then we add your date which is " + dateOFmonth );
+alert(" The sum equals " + step6 + ".");
+
+var step7 = (step6 / 7)
+var step7dec = (step7 * 1.00)
+alert(" Then we divide that number by 7. ");
+alert(" That equals " + step7dec + ".");
+alert(" Now you will select and type the first number to the right of " + step7dec + " if there is one; otherwise type 0.");
+
+var step8 = prompt("Type the number.");
+
+alert(" That number is what we call a day code.  " + "  The codes for each day are: sun = 1, mon = 2, , tues = 4, wed = 5, thur = 7, fri = 8, and sat = 0.");
+
+
+
+
 
 
 
