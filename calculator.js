@@ -65,6 +65,54 @@ alert(" That equals " + step3 + ".");
 
 
 
+alert(" Then we add a month code to that number. " + "  The codes for each month are: jan = 1, feb = 4, , mar = 4, apr = 0, may = 2, jun = 5, jul = 0, aug = 3, sep = 6, oct = 1, nov = 4, and dec = 6.");
+
+//I learned how to write conditional code switch function by watching programming fundamentals video from one of the assignments in lynda.com
+
+switch ( first3month ) {
+	case "jan":
+		alert(" Your month code is " + 1 + ".");
+		break;
+	case "feb":
+		alert(" Your month code is " + 4 + ".");
+		break;
+	case "mar":
+		alert(" Your month code is " + 4 + ".");
+		break;
+	case "apr":
+		alert(" Your month code is " + 0 + ".");
+		break;
+	case "may":
+		alert(" Your month code is " + 2 + ".");
+		break;
+	case "jun":
+		alert(" Your month code is " + 5 + ".");
+		break;
+	case "jul":
+		alert(" Your month code is " + 0 + ".");
+		break;
+	case "aug":
+		alert(" Your month code is " + 3 + ".");
+		break;
+	case "sep":
+		alert(" Your month code is " + 6 + ".");
+		break;
+	case "oct":
+		alert(" Your month code is " + 1 + ".");
+		break;
+	case "nov":
+		alert(" Your month code is " + 4 + ".");
+		break;
+	case "dec":
+		alert(" Your month code is " + 6 + ".");
+		break;
+	default:
+		alert(" A mistake was made by you when typed the month.");
+}
+
+
+
+
 
 
 
